@@ -1,6 +1,7 @@
 body {
     margin: 0;
-	font-family: "Nunito Sans", sans-serif;
+	/* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     color:white;
 }
 
@@ -40,17 +41,17 @@ body {
       animation: gradient 15s ease infinite;
 }
   
-@keyframes gradient {
+/* @keyframes gradient {
       0% {
-          background-position: 0% 50%;
+          transform: 0% 50%;
       }
       50% {
-          background-position: 100% 50%;
+          transform: 100% 50%;
       }
       100% {
-          background-position: 0% 50%;
+          transform: 0% 50%;
       }
-}
+} */
 
 .top{
     background-image: url("../background_images/1579657146548.jfif");
@@ -69,14 +70,33 @@ body {
     text-align: center;
 }
 
-div {
-	font-family: "Nunito Sans", sans-serif;
-    background: none;
-    padding: 20px 20px 20px 20px;
-    box-sizing: border-box;
+h1{
+    padding-top: 20px;
+}
+
+h3{
+    text-align: center;
+    padding-top: 30px;
 }
 
 iframe{
-    text-align: center;
+    display: block;
     border: none;
+    margin: 0 auto;
+}
+
+.wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content{
+    border-radius: 25px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+
+p{
+    margin: 0 auto;
+    width: 800px;
 }
