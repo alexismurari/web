@@ -93,16 +93,19 @@ iframe{
 }
 
 .project{
+    overflow: hidden;
     background-color: rgba(0,0,0,.4);
     color: #fff;
     margin-left: 100px;
     margin-right: 100px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     border-radius: 50px;
 }
 
 p{
     padding-top: 5px;
+    padding-bottom: 10px;
     margin: 0 auto;
     width: 800px;
 }
