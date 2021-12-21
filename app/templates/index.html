@@ -4,13 +4,18 @@
     <meta charset="utf-8">
     <title>Alexis Murari</title>
     <link rel="stylesheet" href="static/styles/home.css">
+    <link rel="icon" href="static/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/myscript.js"></script>
+
 </head>
 <body>
-    <ul>
-        <li><a href="static/Alexis MURARI.pdf" target="blank">Resume</a></li>
-        <li><a href="https://www.linkedin.com/in/alexismurari/" target="blank">LinkedIn</a></li>
-        <li><a href="https://github.com/" target="blank">GitHub</a></li>
-    </ul>
+    <div class="navbar">
+        <a href="static/Alexis MURARI.pdf" target="blank">Resume</a>
+        <a href="https://www.linkedin.com/in/alexismurari/" target="blank">LinkedIn</a>
+        <a href="https://github.com/alexismurari" target="blank">GitHub</a>
+    </div>
+
     <div class="top">
         <div class="main_title">Alexis Murari</div>
     </div>
@@ -23,8 +28,12 @@
 
             <div class="project">
             <h3>Mushroom genus identification and classification (C)</h3>
+            <p style="text-align: center;">Worked in a team of 4 for a Machine Learning project which detects and classify mushrooms</p>
             <iframe width="720" height="405" src="https://www.youtube.com/embed/NEfr-MpBYrA"> </iframe>
-            <p>Worked in a team of 4 for a Machine Learning project which detects and classify mushrooms <br> Data Cleaning &Augmentation, Transfer Learning, ANNs, CNNs and performance measurements</p>
+            <p>On a walk in nature, one often finds a host of unfamiliar mushrooms tucked between the leaves. The goal of this project is to determine the genus of a mushroom based on its appearance. If we know the genus, we would have a lot less to search through to determine the mushroom’s exact identity, without the help of an expert. </p>
+            <p> There are many visual characteristics that distinguish types of mushrooms from each other, but it is not feasible to recognize them with conventional algorithms given the variation across samples. </p>
+            <p> Google reverse-image search can achieve our goal to some degree. However, it does not specialize in this task and possesses a few major shortfalls. Firstly, it sometimes goes no further than recognizing the image as “wild mushroom”. Moreover, its use requires an internet connection -- not always available outdoors -- whereas our model can perform its calculations locally. </p>
+            <p> <br> GitHub Link: <a href="https://github.com/mattlourenco27/Big_fungus"> https://github.com/mattlourenco27/Big_fungus </a></p>
             </div>
 
             <div class="project">
@@ -39,7 +48,7 @@
             <h3>Geographic Information System (C++)</h3>
             <p> <img src="static/images/gis.png" alt=""> <br> Collaborated in a team of 3where we designed aninteractive map and implemented shortest path algorithms</p>
             </div>
-            
+
             <div class="project">
             <h3>Memory game on a FPGA board (Verilog) </h3>
             <p> <img src="static/images/memory.png" alt="" id = "memory"> </p> 
