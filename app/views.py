@@ -1,5 +1,6 @@
 from app import app
-from flask import render_template
+from flask import render_template, request
+from app.forms import ContactForm
 
 @app.route('/')
 def index():
@@ -13,6 +14,7 @@ def open():
 def project():
     return render_template('projects.html')
 
-@app.route('/opensource')
+@app.route('/contact', methods=['GET','POST'])
 def contact():
-    return render_template('contact.html')
+    form = ContactForm(request.form)
+    return render_template('contact.html', form=form)
